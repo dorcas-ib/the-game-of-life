@@ -22,18 +22,4 @@ function verifyCell(currentState, neighbours) {
 // 4. Any dead cell with exactly three live neighbours becomes a live cell.
 // “Live” or “Dead” cells can be represented with suitable values of either the app
 
-// print(verifyCell(4))
 module.exports = { verifyCell };
-
-
-
-
-// function verifygrid(generation0, generation1) {
-//   if (generation1 <2) {
-//       return dead;
-//   }
-
-//   if (generation1) >3 {
-//       return alive
-//   }
-// }
